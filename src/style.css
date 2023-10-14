@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 36px;
+    color: #3498db;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #2583c7;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #333;
+}
+
+button {
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button {
+    background: linear-gradient(45deg, #3498db, #57b5e2); 
+}
+
+h1, button, h2 {
+    text-align: center;
+}
+
+h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
